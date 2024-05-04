@@ -1,4 +1,4 @@
-# propis() Пользуйтесь на здоровье!
+# propis()
 
 ## Описание
 Функция `propis()` преобразует сумму в текстовое представление на туркменском языке.
@@ -13,4 +13,6 @@
 
 ```php
 $amount = 1234567.89;
-echo propis($amount); // выводит "bir milyon iki ýüz otuz ýedi min bäş ýüz altmyş ýedi manat 89 teňňe"
+echo propis($amount); // выводит "bir millyon iki ýüz otuz dört müň bäş ýüz altmyş ýedi manat 89 teňňe"
+
+## Можете доработать/изменить под свои нужды. Пользуйтесь на здоровье!
