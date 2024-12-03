@@ -43,9 +43,9 @@ function propis($amount)
                 }
 
                 if ($index == 2){
-                    $integerText = $integerText . ' müň ' . $chunkText;
-                } elseif($index == 1) {
                     $integerText = $integerText . ' million ' . $chunkText;
+                } elseif($index == 1) {
+                    $integerText = $integerText . ' müň ' . $chunkText;
                 } else {
                     $integerText = $integerText . $chunkText;
                 }
