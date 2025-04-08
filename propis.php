@@ -12,7 +12,7 @@ function propis($amount)
         // Преобразуем целую часть в текст
         $integerText = '';
         if ($integerPart == 0) {
-            $integerText = 'sıfır';
+            $integerText = 'nol';
         } else {
             $integerPart = str_pad($integerPart, ceil(strlen($integerPart) / 3) * 3, '0', STR_PAD_LEFT); // Дополняем нулями до кратного трём
             $chunks = str_split($integerPart, 3); // Разбиваем на группы по три цифры
